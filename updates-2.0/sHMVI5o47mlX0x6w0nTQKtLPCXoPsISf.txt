@@ -1,0 +1,9 @@
+dir | /program/plugs/newPlug | add
+dir | /program/plugs/disusedPlug | delete
+dir | /program/plugs/updatePlug | update
+file | /program/add1.txt | add
+file | /program/add2.txt | add
+file | /program/disused1.txt | delete
+file | /program/disused2.txt | delete
+file | /program/update1.txt | update
+file | /program/update2.txt | update
