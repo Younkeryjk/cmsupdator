@@ -1,0 +1,74 @@
+2019-08-31 10:30:29 释放结果集
+2019-08-31 10:30:29 完成整个查询任务,所用时间为1.041121006012
+2019-08-31 10:30:29 查询 CREATE TABLE `add_table` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `col1` varchar(64) DEFAULT '' COMMENT '字段一',
+  `col2` text,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8
+2019-08-31 10:30:29 查询 INSERT INTO `add_table` VALUES ('1', '字段1的内容', '字段2的内容')
+2019-08-31 10:30:29 查询 INSERT INTO `add_table` VALUES ('2', '字段1的内容', '字段2的内容')
+2019-08-31 10:30:29 查询 DROP TABLE delete_table
+2019-08-31 10:30:29 查询 ALTER TABLE add_column_table ADD col3 tinyint(3) unsigned NOT NULL COMMENT '新增字段'
+2019-08-31 10:30:29 查询 ALTER  TABLE update_column_table CHANGE col1 col11 varchar(64) DEFAULT '' COMMENT '修改字段名称'
+2019-08-31 10:30:29 查询 ALTER TABLE delete_column_table DROP col2
+2019-08-31 10:30:30 查询 INSERT INTO `add_table_data` VALUES ('3', '新增语句的内容', '新增语句的内容2')
+2019-08-31 10:30:30 查询 UPDATE update_table_data SET col1 = '修改语句的内容', col2 = '修改语句的内容2' WHERE id = 2
+2019-08-31 10:30:30 查询 DELETE FROM delete_table_data WHERE id = 4
+2019-08-31 10:30:30 释放结果集
+2019-08-31 10:30:30 完成整个查询任务,所用时间为0.11612200737
+2019-08-31 10:51:45 释放结果集
+2019-08-31 10:51:45 完成整个查询任务,所用时间为1.0346229076385
+2019-08-31 10:51:45 查询 CREATE TABLE `add_table` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `col1` varchar(64) DEFAULT '' COMMENT '字段一',
+  `col2` text,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8
+2019-08-31 10:51:45 查询 INSERT INTO `add_table` VALUES ('1', '字段1的内容', '字段2的内容')
+2019-08-31 10:51:45 查询 INSERT INTO `add_table` VALUES ('2', '字段1的内容', '字段2的内容')
+2019-08-31 10:51:45 查询 DROP TABLE delete_table
+2019-08-31 10:51:45 查询 ALTER TABLE add_column_table ADD col3 tinyint(3) unsigned NOT NULL COMMENT '新增字段'
+2019-08-31 10:51:45 查询 ALTER  TABLE update_column_table CHANGE col1 col11 varchar(64) DEFAULT '' COMMENT '修改字段名称'
+2019-08-31 10:51:45 查询 ALTER TABLE delete_column_table DROP col2
+2019-08-31 10:51:45 查询 INSERT INTO `add_table_data` VALUES ('3', '新增语句的内容', '新增语句的内容2')
+2019-08-31 10:51:45 查询 UPDATE update_table_data SET col1 = '修改语句的内容', col2 = '修改语句的内容2' WHERE id = 2
+2019-08-31 10:51:45 查询 DELETE FROM delete_table_data WHERE id = 4
+2019-08-31 10:51:45 释放结果集
+2019-08-31 10:51:45 完成整个查询任务,所用时间为0.12293791770935
+2019-08-31 11:55:23 释放结果集
+2019-08-31 11:55:23 完成整个查询任务,所用时间为1.0117721557617
+2019-08-31 11:55:23 查询 CREATE TABLE `add_table` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `col1` varchar(64) DEFAULT '' COMMENT '字段一',
+  `col2` text,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8
+2019-08-31 11:55:23 Query Error: CREATE TABLE `add_table` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `col1` varchar(64) DEFAULT '' COMMENT '字段一',
+  `col2` text,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8
+Table 'add_table' already exists
+2019-08-31 11:55:23 释放结果集
+2019-08-31 11:55:23 完成整个查询任务,所用时间为0.0014069080352783
+2019-08-31 11:59:42 释放结果集
+2019-08-31 11:59:42 完成整个查询任务,所用时间为1.0192580223083
+2019-08-31 11:59:42 查询 CREATE TABLE `add_table` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `col1` varchar(64) DEFAULT '' COMMENT '字段一',
+  `col2` text,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8
+2019-08-31 11:59:42 查询 INSERT INTO `add_table` VALUES ('1', '字段1的内容', '字段2的内容')
+2019-08-31 11:59:42 查询 INSERT INTO `add_table` VALUES ('2', '字段1的内容', '字段2的内容')
+2019-08-31 11:59:42 查询 DROP TABLE delete_table
+2019-08-31 11:59:42 查询 ALTER TABLE add_column_table ADD col3 tinyint(3) unsigned NOT NULL COMMENT '新增字段'
+2019-08-31 11:59:42 查询 ALTER  TABLE update_column_table CHANGE col1 col11 varchar(64) DEFAULT '' COMMENT '修改字段名称'
+2019-08-31 11:59:42 查询 ALTER TABLE delete_column_table DROP col2
+2019-08-31 11:59:42 查询 INSERT INTO `add_table_data` VALUES ('3', '新增语句的内容', '新增语句的内容2')
+2019-08-31 11:59:42 查询 UPDATE update_table_data SET col1 = '修改语句的内容', col2 = '修改语句的内容2' WHERE id = 2
+2019-08-31 11:59:42 查询 DELETE FROM delete_table_data WHERE id = 4
+2019-08-31 11:59:42 释放结果集
+2019-08-31 11:59:42 完成整个查询任务,所用时间为0.12540817260742
